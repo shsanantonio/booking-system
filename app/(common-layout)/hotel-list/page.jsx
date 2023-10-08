@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { FixedSizeList as List } from "react-window";
 
 const Page = () => {
-
+    console.log("im right here")
     const [hotelList, setHotelList] = useState([]);
 
     const fetchPosts = async () => {
